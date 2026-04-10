@@ -1,0 +1,40 @@
+/* Container styling - centers content horizontally */
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Color box styling */
+#color-box {
+    width: 200px;
+    height: 200px;
+    background-color: #3498db; /* Default blue color */
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+#change-color-btn {
+    background-color: #2c3e50;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+}
+
+/* Button hover effect */
+#change-color-btn:hover {
+    background-color: #34495e;
+    transform: scale(1.05);
+}
+
+/* Button active effect */
+#change-color-btn:active {
+    transform: scale(0.98);
+}
